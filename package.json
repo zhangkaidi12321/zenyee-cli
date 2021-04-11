@@ -1,6 +1,6 @@
 {
   "name": "zenyee-cli",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "zenyee-cli",
   "main": "index.js",
   "scripts": {
@@ -21,15 +21,15 @@
   "homepage": "https://github.com/zhangkaidi12321/zenyee-cli#readme",
   "devDependencies": {},
   "dependencies": {
+    "glob": "^7.1.6",
+    "commander": "^7.2.0",
     "chalk": "^4.1.0",
     "download-git-repo": "^3.0.2",
     "handlebars": "^4.7.7",
     "inquirer": "^8.0.0",
     "log-symbols": "^4.1.0",
     "metalsmith": "^2.3.0",
-    "ora": "^5.4.0",
-    "glob": "^7.1.6",
-    "commander": "^7.2.0"
+    "ora": "^5.4.0"
   },
   "bin": {
     "zenyee": "./bin/index.js"
