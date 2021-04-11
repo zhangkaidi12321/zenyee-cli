@@ -1,0 +1,37 @@
+{
+  "name": "zenyee-cli",
+  "version": "1.0.3",
+  "description": "zenyee-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangkaidi12321/zenyee-cli.git"
+  },
+  "keywords": [
+    "zenyee-cli"
+  ],
+  "author": "zzz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangkaidi12321/zenyee-cli/issues"
+  },
+  "homepage": "https://github.com/zhangkaidi12321/zenyee-cli#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "download-git-repo": "^3.0.2",
+    "handlebars": "^4.7.7",
+    "inquirer": "^8.0.0",
+    "log-symbols": "^4.1.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^5.4.0",
+    "glob": "^7.1.6",
+    "commander": "^7.2.0"
+  },
+  "bin": {
+    "zenyee": "./bin/index.js"
+  }
+}
